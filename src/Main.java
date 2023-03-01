@@ -23,8 +23,8 @@ public class Main {
 
         System.out.println("Level 1");
         for (Phone model : phones) {
-            makeCall(model, number[(int) (Math.random() * 9)]);
-            receiveCall(model, number[(int) (Math.random() * 9)]);
+            makeCall(model, number[(int) (Math.random() * number.length)]);
+            receiveCall(model, number[(int) (Math.random() * number.length)]);
         }
         System.out.println();
         System.out.println(buttonPhoneOne);
@@ -69,7 +69,7 @@ public class Main {
 
         //Just for example
         System.out.println("Пользователь установил время вручную.");
-        appleWatch.setTime(23, 59);
+        appleWatch.setTime(20, 20);
     }
 
     public static void time24hFormat(Device device) {
