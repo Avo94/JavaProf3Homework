@@ -1,6 +1,6 @@
 public class ButtonPhone extends Phone {
 
-    public void setModel(String model) {
+    public ButtonPhone(String model) {
         super.model = model;
     }
 
@@ -21,6 +21,8 @@ public class ButtonPhone extends Phone {
 
     @Override
     public String toString() {
-        return model;
+        return "ButtonPhone{" +
+                "model='" + model + '\'' +
+                '}';
     }
 }

@@ -1,6 +1,6 @@
 public class RadioPhone extends Phone {
 
-    public void setModel(String model){
+    public RadioPhone(String model){
         super.model = model;
     }
 
@@ -21,6 +21,8 @@ public class RadioPhone extends Phone {
 
     @Override
     public String toString() {
-        return model;
+        return "RadioPhone{" +
+                "model='" + model + '\'' +
+                '}';
     }
 }

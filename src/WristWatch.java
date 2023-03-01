@@ -1,6 +1,6 @@
 public class WristWatch extends Watch {
 
-    public void setModel(String model) {
+    public WristWatch(String model) {
         super.model = model;
     }
 

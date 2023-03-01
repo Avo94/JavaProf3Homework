@@ -1,6 +1,6 @@
 public class AppleWatch extends Watch {
 
-    public void setModel(String model) {
+    public AppleWatch(String model) {
         super.model = model;
     }
 

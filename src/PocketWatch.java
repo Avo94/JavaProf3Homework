@@ -1,6 +1,6 @@
 public class PocketWatch extends Watch {
 
-    public void setModel(String model) {
+    public PocketWatch(String model) {
         super.model = model;
     }
 
